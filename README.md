@@ -13,13 +13,13 @@ A new favlet featuring unblocked dev tools, games, and more!
 3. Set the name to `Vengeance` and the URL to the code below:
 
 ```js
-javascript:(function () {var v = document.createElement('script');v.src = 'https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@v1.2.0/script.min.js';document.body.appendChild(v);}())
+javascript:(function () {var v = document.createElement('script');v.src = 'https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@v2.0.0/script.min.js';document.body.appendChild(v);}())
 ```
 
 ### Features
 - Unblocked dev tools including an improved edit function
 - A game hub featuring 10 fun games to mess around with
-- vGBA: A port of IodineGBA to play GBA games (Coming Soon...)
+- vGBA: A port of IodineGBA to play GBA games
 - Tab specific saving for games (Site-based)
 - Several different other functions to utilize
 - An update function and future update roadmap
@@ -33,7 +33,6 @@ javascript:(function () {var v = document.createElement('script');v.src = 'https
 - If you have a problem with something else such as the games not working anywhere, contact me @ browncha023@alpinsd.org (For `Alpine School District`) or @ cjbrown402@gmail.com (For `Other`)
 
 #### Update Roadmap:
-- vGBA (Coming 2.0+)
 - Rewrite Main Source (Coming 3.0+)
 
 **Roadmap subject to change!*
