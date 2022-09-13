@@ -18,7 +18,8 @@ javascript:(function () {var v = document.createElement('script');v.src = 'https
 
 ### Features
 - Unblocked dev tools including an improved edit function
-- A game hub featuring 8+ fun games to mess around with
+- A game hub featuring 10 fun games to mess around with
+- vGBA: A port of IodineGBA to play GBA games
 - Tab specific saving for games (Site-based)
 - Several different other functions to utilize
 - An update function and future update roadmap
