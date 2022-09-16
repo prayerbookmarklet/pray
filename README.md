@@ -1,4 +1,5 @@
-# ⚠️ Update For ASD Will Arrive Next Week! ⚠️
+# ⚠️ This Project Is No Langer Supported! ⚠️
+Thank you all for using Vengeance, but while I have the ability to unblock the entire program right now, I'm not going too. My school is threatening to shut down the one-to-one chromebook program and completley lock down all other loop holes on the other devices. I have insider info and I know that they're aren't bluffing. They can patch every single loophole, yet they choose not to for the sake of teachers losing tools for education. If I continue to exploit these loopholes, many elective classes and clubs across the district will cease to exist while normal classes will lose many important tools. I advise anyone looking for loopholes to stop and think about the consequences. I'm done with loopholes and I'm leaving the community. I wouldn't forgive myself if I didn't.
 
 # Vengeance
 The **New** Ultimate Bookmarklet!
