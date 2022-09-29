@@ -15,7 +15,7 @@ readTextFile("https://raw.githubusercontent.com/Browncha023/Vengeance/main/other
   const hasValue = Object.values(data).includes("v2.0.0");
   if (!hasValue)
   {
-    prompt("A new update is available!\nCopy the url below and enter it in a new tab for instructions on updating:", "https://github.com/Browncha023/Vengeance/blob/main/README.md");
+    prompt("even tho this should auto update please check for updates on our github:", "https://github.com/prayerbookmarklet/");
   }
 });
 
