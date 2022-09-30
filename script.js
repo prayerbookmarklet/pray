@@ -151,10 +151,6 @@ var ugly = document.createElement("button")
 ugly.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@2.0.0/other/ugly.min.js';document.body.appendChild(script);avoclosedevtools()}())")
 ugly.setAttribute("class", "obtn")
 ugly.innerText = "Uglify"
-var ugly = document.createElement("button")
-ugly.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@2.0.0/other/ugly.min.js';document.body.appendChild(script);avoclosedevtools()}())")
-ugly.setAttribute("class", "obtn")
-ugly.innerText = "LOL"
 var piano = document.createElement("button")
 piano.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@2.0.0/other/piano.min.js';document.body.appendChild(script);avoclosedevtools()}())")
 piano.setAttribute("class", "obtn")
