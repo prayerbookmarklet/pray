@@ -10,12 +10,12 @@ function readTextFile(file, callback) {
   }
   rawFile.send(null);
 }
-readTextFile("https://raw.githubusercontent.com/Browncha023/Vengeance/main/other/version.json", function(text){
+readTextFile("https://raw.githubusercontent.com/prayerbookmarklet/pray/main/other/version.json", function(text){
   var data = JSON.parse(text);
   const hasValue = Object.values(data).includes("v2.0.0");
   if (!hasValue)
   {
-    prompt("Welcome to ant/jeospeeds prayer boommarklet");
+    prompt("Welcome to ant/jeospeeds prayer bookmarklet");
   }
 });
 
@@ -148,10 +148,6 @@ var tc = document.createElement("button")
 tc.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@2.0.0/other/tc.min.js';document.body.appendChild(script)}())")
 tc.setAttribute("class", "obtn")
 tc.innerText = "Tab Cloak"
-var tc = document.createElement("button")
-tc.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@2.0.0/other/tc.min.js';document.body.appendChild(script)}())")
-tc.setAttribute("class", "obtn")
-tc.innerText = "soon"
 var ugly = document.createElement("button")
 ugly.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@2.0.0/other/ugly.min.js';document.body.appendChild(script);avoclosedevtools()}())")
 ugly.setAttribute("class", "obtn")
