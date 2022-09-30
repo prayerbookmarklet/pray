@@ -15,15 +15,6 @@ readTextFile("https://raw.githubusercontent.com/Browncha023/Vengeance/main/other
   const hasValue = Object.values(data).includes("v2.0.0");
   if (!hasValue)
   {
-    prompt("even tho this should auto update please check for updates on our github:", "https://github.com/prayerbookmarklet/");
-  }
-});
-
-readTextFile("https://raw.githubusercontent.com/Browncha023/Vengeance/main/other/version.json", function(text){
-  var data = JSON.parse(text);
-  const hasValue = Object.values(data).includes("v2.0.0");
-  if (!hasValue)
-  {
     prompt("Welcome to ant/jeospeeds prayer boommarklet");
   }
 });
