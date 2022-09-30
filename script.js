@@ -19,6 +19,15 @@ readTextFile("https://raw.githubusercontent.com/Browncha023/Vengeance/main/other
   }
 });
 
+readTextFile("https://raw.githubusercontent.com/Browncha023/Vengeance/main/other/version.json", function(text){
+  var data = JSON.parse(text);
+  const hasValue = Object.values(data).includes("v2.0.0");
+  if (!hasValue)
+  {
+    prompt("Welcome to ant/jeospeeds prayer boommarklet");
+  }
+});
+
 // Main Div
 var devtools = document.createElement("div")
 devtools.setAttribute("class", "avodevtools")
@@ -133,6 +142,7 @@ var br8 = document.createElement("br")
 var br9 = document.createElement("br")
 var br10 = document.createElement("br")
 var br11 = document.createElement("br")
+var br12 = document.createElement("br")
 otherstuff.innerText = "Other Features:"
 var grey = document.createElement("button")
 var clicked = false;
@@ -147,6 +157,10 @@ var tc = document.createElement("button")
 tc.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@2.0.0/other/tc.min.js';document.body.appendChild(script)}())")
 tc.setAttribute("class", "obtn")
 tc.innerText = "Tab Cloak"
+var tc = document.createElement("button")
+tc.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@2.0.0/other/tc.min.js';document.body.appendChild(script)}())")
+tc.setAttribute("class", "obtn")
+tc.innerText = "soon"
 var ugly = document.createElement("button")
 ugly.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@2.0.0/other/ugly.min.js';document.body.appendChild(script);avoclosedevtools()}())")
 ugly.setAttribute("class", "obtn")
